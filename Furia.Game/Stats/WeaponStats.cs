@@ -46,7 +46,10 @@ namespace Furia.Stats
         {
             //This is how you are supposed to set sprite frames https://doc.stride3d.net/4.0/en/manual/sprites/use-sprites.html
             spriteComponent = Entity.Get<SpriteComponent>();
-            spriteSheet = spriteComponent.SpriteProvider as SpriteFromSheet;
+            if (spriteComponent != null)
+            {
+                spriteSheet = spriteComponent.SpriteProvider as SpriteFromSheet;
+            }
         }
 
         public override void Update()

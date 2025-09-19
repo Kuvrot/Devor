@@ -146,6 +146,43 @@ Hierarchy:
                         Children:
                             9bd6c2826922c24ba23d41e3a7a958f6: ref!! 82c2d69b-2269-4bc2-a23d-41e3a7a958f6
         -   Entity:
+                Id: 03b36804-09b3-49b7-ac4d-8341ce1294aa
+                Name: tris_high
+                Components:
+                    00445e46a266981af7654609cb457b88: !TransformComponent
+                        Id: 53ae4b1f-b7fc-4f59-8658-a3822b805906
+                        Position: {X: -0.21308535, Y: 0.7692262, Z: -1.6582905}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 0.023165235, Y: 0.023165235, Z: 0.023165235}
+                        Children: {}
+                    83b4763d646e264f32c4def5ecbdcea4: !Furia.Stats.WeaponStats,Furia.Game
+                        Id: e60de7b2-a2e4-4f92-89a8-87c19bd74795
+                        weaponID: 0
+                        MaxShootDistance: 100.0
+                        ShootImpulse: 5.0
+                        Cooldown: 0.1
+                        ReloadCooldown: 2.0
+                        RemainingBullets: null
+                        remainingAmmo: 0
+                        maxBullets: 30
+                        inventoryAmmo: 100
+                        infiniteAmmo: true
+                        isMelee: false
+                        damage: 50.0
+                        shotSound: c4139b9f-8f10-41df-aa00-db87b3993ef3:DefaultResources/Audio/ShotSound
+                        reloadSound: 212af359-6a06-4f87-80b2-bebc0b050d23:DefaultResources/Audio/ReloadSound
+                        isSpriteSheetAnimation: false
+                        animationSpeed: 5
+                        reloadStartFrame: 3
+                        reloadEndFrame: 8
+                        shootStartFrame: 0
+                        shootEndFrame: 2
+                    08a0b0e9dd0f37b76ab5b67515fce677: !ModelComponent
+                        Id: b46cf611-951b-4d65-b9c3-ae8ac88bd4c2
+                        Model: 7488a64a-543f-4f58-83e8-f5562d6be0da:OpenDefense/tris_high
+                        RenderGroup: Group1
+                        Materials: {}
+        -   Entity:
                 Id: 03d491b6-0de3-4746-b6bb-4eeb0e2ba0cb
                 Name: Wall0x2x5 (4)
                 Components:
@@ -1763,6 +1800,7 @@ Hierarchy:
                         Children: {}
                     790f7c7cbc60796c12b6026cfb261e24: !SpriteComponent
                         Id: 02ea0b9e-c889-4d4b-847b-7c0b11621380
+                        Enabled: false
                         SpriteProvider: !SpriteFromSheet
                             Sheet: dbadba05-bf9a-4c71-99cc-0b4c523470fa:DefaultResources/SpriteSheet
                         Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
@@ -2440,7 +2478,7 @@ Hierarchy:
                 Components:
                     321d321c570d3e43a2a274d71d7258f5: !TransformComponent
                         Id: 1c321d32-0d57-433e-a2a2-74d71d7258f5
-                        Position: {X: -0.18516554, Y: 0.2284868, Z: -0.72298443}
+                        Position: {X: -0.031082496, Y: 0.5342289, Z: -3.2220457}
                         Rotation: {X: 0.70710677, Y: 3.8090255E-07, Z: -3.8090255E-07, W: 0.70710677}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children: {}
@@ -5243,7 +5281,7 @@ Hierarchy:
                         movementSpeed: 100.0
                         damage: 10.0
                         attackRate: 1.0
-                        stoppingDistance: 1.5
+                        stoppingDistance: 5.0
                         detectRange: 10.0
                         isRangeNPC: false
                         Projectiles: {}
@@ -5731,7 +5769,7 @@ Hierarchy:
                 Components:
                     458ac2590f953f4fb47242e21b3e420f: !TransformComponent
                         Id: 59c28a45-950f-4f3f-b472-42e21b3e420f
-                        Position: {X: -14.999999, Y: 0.0, Z: -7.4227076}
+                        Position: {X: -14.999999, Y: 3.0, Z: -7.4227076}
                         Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                         Scale: {X: 1.0, Y: 1.0, Z: 1.0}
                         Children:
@@ -5750,10 +5788,10 @@ Hierarchy:
                         JumpSpeed: 0.0
                         Gravity: {X: 0.0, Y: -20.0, Z: 0.0}
                         ColliderShapes:
-                            c7ab0c6b38a28147baf5c58b2eea7674: !CapsuleColliderShapeDesc
-                                Length: 1.2
-                                Radius: 0.4
-                                LocalOffset: {X: 0.0, Y: 0.95, Z: 0.0}
+                            c7ab0c6b38a28147baf5c58b2eea7674: !ConeColliderShapeDesc
+                                Height: 4.0
+                                Radius: 2.0
+                                LocalOffset: {X: 0.0, Y: -1.0, Z: 0.0}
                                 LocalRotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
                     10565f1955d8ff15323fc3307bd47d8f: !Furia.Player.PlayerController,Furia.Game
                         Id: a1231a3f-667e-48d8-9193-aa2eca6779e1
@@ -5782,7 +5820,7 @@ Hierarchy:
                         Id: 5e21fbeb-2870-43b0-af8a-add508396fd3
                         enableFlashLight: true
                         Weapons:
-                            9b3338ae1e011b0da84ef62733e2795d: !SpriteComponent ref!! 02ea0b9e-c889-4d4b-847b-7c0b11621380
+                            9b3338ae1e011b0da84ef62733e2795d: !TransformComponent ref!! 53ae4b1f-b7fc-4f59-8658-a3822b805906
                         flashLight: ref!! faebfdd0-7bb2-4ebb-b19c-c80be1118a4f
                         currentWeaponSelected: 0
                         weaponScript: ref!! cc66f4e3-fab7-4e4a-816d-3113bb7c953a
@@ -6700,6 +6738,7 @@ Hierarchy:
                             321d321c570d3e43a2a274d71d7258f5: ref!! 1c321d32-0d57-433e-a2a2-74d71d7258f5
                             3deeaceca785fb99fa541a4fc233f1de: ref!! 5158b221-f5ab-4b02-bfa1-5f814cd59a2d
                             561dc7a76fe06e2690407548d45fc5c3: ref!! bee5cfed-c6a9-40d6-936f-7223457ab3c1
+                            2451105e36f3c4f606b4c1c27335e314: ref!! 53ae4b1f-b7fc-4f59-8658-a3822b805906
                     efd695c8917b8a42a02ea11321380575: !ModelComponent
                         Id: c895d6ef-7b91-428a-a02e-a11321380575
                         Enabled: false
@@ -6746,7 +6785,7 @@ Hierarchy:
                         autimaticRunAnimation: true
                         automaticIdleAnimation: true
                         automaticWalkAnimation: true
-                        automaticReloadAnimation: false
+                        automaticReloadAnimation: true
                         automaticShootAnimation: true
                         sprite: ref!! 02ea0b9e-c889-4d4b-847b-7c0b11621380
                         AnimationComponent: ref!! 2de1f9e7-358d-48d3-b360-d0f05ad26c60
@@ -6754,7 +6793,7 @@ Hierarchy:
                         AnimationWalk: 0fa438c8-e536-4a3b-8061-ac1df55d3f09:Animations/Gun_Run
                         AnimationShoot: 1f65e631-c4d4-4e29-8bff-0319912d809a:Animations/shoot_BaseAnimation
                         AnimationReload: 00c926e9-a86f-40a8-b993-4cab12902faa:Animations/Reload_Armature_ArmatureAction.001
-                        TimeFactor: 1.0
+                        TimeFactor: 0.5
                     f65a973d79e8a29eac4f65a2ffa7e44d: !UIComponent
                         Id: 40556f27-cbed-43eb-8c88-c8e5545c8402
                         Page: null

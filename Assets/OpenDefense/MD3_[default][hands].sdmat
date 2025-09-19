@@ -1,0 +1,27 @@
+!MaterialAsset
+Id: bc7ac59c-7fd3-4a2e-bb3e-e197a1bc62f3
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Attributes:
+    Diffuse: !MaterialDiffuseMapFeature
+        DiffuseMap: !ComputeTextureColor
+            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
+    Emissive: !MaterialEmissiveMapFeature
+        EmissiveMap: !ComputeTextureColor
+            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            FallbackValue:
+                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+            Scale: {X: 1.0, Y: 1.0}
+            Offset: {X: 0.0, Y: 0.0}
+            Swizzle: null
+        Intensity: !ComputeFloat
+            Value: 1.0
+    Overrides:
+        UVScale: {X: 1.0, Y: 1.0}
+Layers: {}

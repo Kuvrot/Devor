@@ -25,7 +25,9 @@ namespace Furia.Player
         public void PlaySound (Sound sound)
         {
             if (sound != null) {
+                double random = new Random().NextDouble() * (1 - 0.8d) + 0.8d;
                 SoundInstance soundInstance = sound.CreateInstance();
+                soundInstance.Pitch = (float)random;
                 soundInstance.Play();
             }
         }

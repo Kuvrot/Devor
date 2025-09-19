@@ -1,0 +1,20 @@
+!Model
+Id: 7488a64a-543f-4f58-83e8-f5562d6be0da
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../Resources/OpenDefense/tris_high.md3
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    e912a3fd60abb8013145879987547d4b:
+        Name: MD3_[default][weapon]
+        MaterialInstance:
+            Material: 59c27f53-4249-4dd5-8ff2-03164f408813:OpenDefense/MD3_[default][weapon]
+    fb49c0d48e19c3fc5160469488d7d6dc:
+        Name: MD3_[default][hands]
+        MaterialInstance:
+            Material: bc7ac59c-7fd3-4a2e-bb3e-e197a1bc62f3:OpenDefense/MD3_[default][hands]
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    78517012c59f036825e75234b7b4ca04~../../Resources/OpenDefense/tris_high.md3: 48f266e9772abab2083fa2bff864cb5b

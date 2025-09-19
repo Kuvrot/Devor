@@ -155,7 +155,6 @@ namespace Furia.Player
             {
                 weaponManager.currentWeaponStats.PlayShootAnimation();
             }
-
             audioManager.PlaySound(weaponManager.currentWeaponStats.shotSound);
 
             cooldownRemaining = weaponManager.currentWeaponStats.Cooldown;

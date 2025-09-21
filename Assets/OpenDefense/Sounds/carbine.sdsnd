@@ -1,0 +1,8 @@
+!Sound
+Id: 30f288e0-0e7d-485a-b6cc-d86968ec1e86
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenDefense/Sounds/carbine.ogg
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

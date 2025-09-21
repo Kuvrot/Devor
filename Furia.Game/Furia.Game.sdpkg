@@ -23,12 +23,6 @@ AssetFolders:
     -   Path: !dir ../Assets
     -   Path: !dir ../Assets
     -   Path: !dir ../Assets
-    -   Path: !dir ../Assets
-    -   Path: !dir ../Assets
-    -   Path: !dir ../Assets
-    -   Path: !dir ../Assets
-    -   Path: !dir ../Assets
-    -   Path: !dir ../Assets
     -   Path: !dir D:/GameEngines/StrideProjects/OpenDefense/Assets
 ResourceFolders:
     - !dir ../Resources

@@ -169,7 +169,7 @@ Hierarchy:
                         infiniteAmmo: true
                         isMelee: false
                         damage: 50.0
-                        shotSound: c4139b9f-8f10-41df-aa00-db87b3993ef3:DefaultResources/Audio/ShotSound
+                        shotSound: fe6e9200-c0f5-4622-a9ca-65c6e09dff29:OpenDefense/Sounds/sniper
                         reloadSound: 212af359-6a06-4f87-80b2-bebc0b050d23:DefaultResources/Audio/ReloadSound
                         isSpriteSheetAnimation: false
                         animationSpeed: 5

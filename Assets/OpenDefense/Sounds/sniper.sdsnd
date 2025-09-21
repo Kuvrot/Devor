@@ -1,0 +1,9 @@
+!Sound
+Id: fe6e9200-c0f5-4622-a9ca-65c6e09dff29
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenDefense/Sounds/sniper.ogg
+SampleRate: 48000
+CompressionRatio: 15
+StreamFromDisk: false
+Spatialized: false

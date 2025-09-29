@@ -17,12 +17,16 @@ namespace Furia.Player
         public Sound hitSound;
 
         //Components
-        private UiManager uiManager;
+        public UiManager uiManager;
         private AudioManager audioManager;
 
         public override void Start()
         {
-            uiManager = Entity.GetChild(0).Get<UiManager>();
+            if (uiManager == null)
+            {
+                uiManager = Entity.GetChild(0).Get<UiManager>();
+            } 
+
             audioManager = Entity.Get<AudioManager>();
         }
 

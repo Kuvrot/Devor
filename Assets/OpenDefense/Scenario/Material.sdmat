@@ -1,27 +1,27 @@
 !MaterialAsset
-Id: bc7ac59c-7fd3-4a2e-bb3e-e197a1bc62f3
+Id: 87ef0749-635d-47f4-9800-9a2c6b30df68
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeTextureColor
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            Texture: 31fa4655-9753-43f2-b922-473766603b29:OpenDefense/Scenario/sichtbeton2
             FallbackValue:
                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
             Filtering: Point
-            Scale: {X: 1.0, Y: 1.0}
+            Scale: {X: 50.0, Y: 50.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
     Occlusion: !MaterialOcclusionMapFeature
         AmbientOcclusionMap: !ComputeTextureScalar
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            Texture: 31fa4655-9753-43f2-b922-473766603b29:OpenDefense/Scenario/sichtbeton2
             FallbackValue:
                 Value: 1.0
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
         DirectLightingFactor: !ComputeFloat
-            Value: 0.72
+            Value: 1.0
         CavityMap: !ComputeTextureScalar
             FallbackValue:
                 Value: 1.0
@@ -30,17 +30,6 @@ Attributes:
         DiffuseCavity: !ComputeFloat
             Value: 1.0
         SpecularCavity: !ComputeFloat
-            Value: 1.0
-    Emissive: !MaterialEmissiveMapFeature
-        EmissiveMap: !ComputeTextureColor
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
-            FallbackValue:
-                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-            Filtering: Point
-            Scale: {X: 1.0, Y: 1.0}
-            Offset: {X: 0.0, Y: 0.0}
-            Swizzle: null
-        Intensity: !ComputeFloat
             Value: 1.0
     Overrides:
         UVScale: {X: 1.0, Y: 1.0}

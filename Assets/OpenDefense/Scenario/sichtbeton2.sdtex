@@ -1,8 +1,8 @@
 !Texture
-Id: 1baeb221-e8d8-438a-b23b-8e3baf945806
+Id: 31fa4655-9753-43f2-b922-473766603b29
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
-Source: !file ../../Resources/OpenDefense/skin_weapon.jpg
+Source: !file ../../../Resources/OpenDefense/Scenario/sichtbeton2.jpg
 Width: 64.0
 Height: 64.0
 IsSizeInPercentage: false

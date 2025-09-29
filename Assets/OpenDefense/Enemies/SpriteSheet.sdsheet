@@ -1,0 +1,49 @@
+!SpriteSheet
+Id: b9ce65a3-bc69-449b-a79f-3bb833e27932
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Alpha: None
+Packing: {}
+Sprites:
+    e84aa5818a20482b407cf83333708322:
+        Source: !file ../../../Resources/OpenDefense/Enemies/thermite 2.png
+        Name: thermite 2
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderModeU: Wrap
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    dcac01a9f604463ba13a3eeb17133b10:
+        Source: !file ../../../Resources/OpenDefense/Enemies/thermite 2.png
+        Name: thermite 2
+        TextureRegion: {X: 256, Y: 4, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderModeU: Wrap
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    072686120f909b5a582ecececd186270:
+        Source: !file ../../../Resources/OpenDefense/Enemies/thermite 2.png
+        Name: thermite 2
+        TextureRegion: {X: 512, Y: 4, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderModeU: Wrap
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2c7660feda9949c680d432655d78f892:
+        Source: !file ../../../Resources/OpenDefense/Enemies/thermite 2.png
+        Name: thermite 2
+        TextureRegion: {X: 768, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderModeU: Wrap
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    aeca791068a128d490678052b11ab932:
+        Source: !file ../../../Resources/OpenDefense/Enemies/thermite 2.png
+        Name: thermite 2
+        TextureRegion: {X: 1024, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderModeU: Wrap
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,27 +1,17 @@
 !MaterialAsset
-Id: bc7ac59c-7fd3-4a2e-bb3e-e197a1bc62f3
+Id: dc5e1803-91ea-48a9-985d-e3b97713e44e
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Attributes:
-    Diffuse: !MaterialDiffuseMapFeature
-        DiffuseMap: !ComputeTextureColor
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
-            FallbackValue:
-                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-            Filtering: Point
-            Scale: {X: 1.0, Y: 1.0}
-            Offset: {X: 0.0, Y: 0.0}
-            Swizzle: null
-    DiffuseModel: !MaterialDiffuseLambertModelFeature {}
     Occlusion: !MaterialOcclusionMapFeature
         AmbientOcclusionMap: !ComputeTextureScalar
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            Texture: 4f36d7fc-dcdd-49c4-ac45-bed11761ccc3:OpenDefense/Scenario/Wiese3
             FallbackValue:
                 Value: 1.0
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
         DirectLightingFactor: !ComputeFloat
-            Value: 0.72
+            Value: 1.0
         CavityMap: !ComputeTextureScalar
             FallbackValue:
                 Value: 1.0
@@ -33,11 +23,11 @@ Attributes:
             Value: 1.0
     Emissive: !MaterialEmissiveMapFeature
         EmissiveMap: !ComputeTextureColor
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            Texture: 4f36d7fc-dcdd-49c4-ac45-bed11761ccc3:OpenDefense/Scenario/Wiese3
             FallbackValue:
                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
             Filtering: Point
-            Scale: {X: 1.0, Y: 1.0}
+            Scale: {X: 222.0, Y: 222.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
         Intensity: !ComputeFloat

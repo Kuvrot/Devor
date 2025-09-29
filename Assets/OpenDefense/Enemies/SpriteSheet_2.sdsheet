@@ -1,0 +1,212 @@
+!SpriteSheet
+Id: 10c16656-7573-4515-bfe5-6806f0e5f8d1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 255, B: 255, A: 255}
+ColorKeyEnabled: true
+Packing: {}
+Sprites:
+    e264cf6ed7e3caf5fa03ef581c3b941f:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0000.png
+        Name: Screenshot_0000
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bae2e4377df764f54e704563663804ab:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0001.png
+        Name: Screenshot_0001
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c178a7732ddaf3983eaed3777e19a28f:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0002.png
+        Name: Screenshot_0002
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4ecc4af17634ab4bfccece69ab8f195b:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0003.png
+        Name: Screenshot_0003
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    38cd4a4b16b5af3940eb808aea0c6850:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0004.png
+        Name: Screenshot_0004
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8d58ddc8890b5b4f913da93298483419:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0005.png
+        Name: Screenshot_0005
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e51891241860c67bc146eb4a00b83a78:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0006.png
+        Name: Screenshot_0006
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    65280f524b498c8e6e654f3399d37658:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0007.png
+        Name: Screenshot_0007
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    044a457ecb7fa479c1a34f16757ec4eb:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0008.png
+        Name: Screenshot_0008
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9a5a638fc0933b8fb5fbdc2361b9ecca:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0009.png
+        Name: Screenshot_0009
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    645cf90adcbe055cb24addbe6c8936a8:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0010.png
+        Name: Screenshot_0010
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e1e8417cfbddbf01897f6caf911191c0:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0011.png
+        Name: Screenshot_0011
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    87b71b65da96f2702db1a2ff9c49125e:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0012.png
+        Name: Screenshot_0012
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d8441c588f961db8fbeff9f0dea11dd8:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0013.png
+        Name: Screenshot_0013
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    541d5372dcc3ba5f13bc447c87f28e6e:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0014.png
+        Name: Screenshot_0014
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    3f51ab817558ff6d9e93fab5c2a25e50:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0015.png
+        Name: Screenshot_0015
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    820490e94e3875701e3e87c419161c63:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0016.png
+        Name: Screenshot_0016
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    9e194ae66313d4fc796040466b557446:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0017.png
+        Name: Screenshot_0017
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    94f43b6af8c90b71a4b2f88719cc8693:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0018.png
+        Name: Screenshot_0018
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7eda95b30d672dda1c7b7c03a6939e3b:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0019.png
+        Name: Screenshot_0019
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    bec51dcce3ea31944b1f546bec401251:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0020.png
+        Name: Screenshot_0020
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1348ecc3ebae54306275e8acef15dc87:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0021.png
+        Name: Screenshot_0021
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e598c37d4fe264529fff46d63114726d:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0022.png
+        Name: Screenshot_0022
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    085f83fb6226bafd991fb8aa7078ed16:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0023.png
+        Name: Screenshot_0023
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    f6490c98e09a0bb7fa3dc33cdfc42458:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0024.png
+        Name: Screenshot_0024
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    d805c1445048125f54d8bb48a62640d0:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0025.png
+        Name: Screenshot_0025
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5745e3249fdd7e74222725aef229863a:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0026.png
+        Name: Screenshot_0026
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    79dc8056e67e904a9f09928aa80fc0ce:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0027.png
+        Name: Screenshot_0027
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    582ad92c34ebccf16303fae947347921:
+        Source: !file ../../../Resources/OpenDefense/Enemies/Screenshot_0028.png
+        Name: Screenshot_0028
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

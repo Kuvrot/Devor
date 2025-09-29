@@ -1,0 +1,20 @@
+!Model
+Id: f479bc99-959b-41c5-9d08-149430ff6562
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenDefense/Scenario/fort.obj
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    d36a725d1282ca1960c7e27fa4d86ff8:
+        Name: DefaultMaterial
+        MaterialInstance:
+            Material: null
+    cffdaeb0e769b87382579cb2d6bc6758:
+        Name: Material
+        MaterialInstance:
+            Material: 87ef0749-635d-47f4-9800-9a2c6b30df68:OpenDefense/Scenario/Material
+DeduplicateMaterials: false
+Modifiers: {}
+~SourceHashes:
+    1b2ba6cf63fca2aec5594459b7aab62b~../../../Resources/OpenDefense/Scenario/fort.obj: c5023738a9792e3da685cd4973c030b8

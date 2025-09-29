@@ -1,0 +1,211 @@
+!SpriteSheet
+Id: a5ed04c6-dca1-4df3-977a-f97648f83583
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Type: Sprite2D
+ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}
+Packing: {}
+Sprites:
+    c2538dbac3aca8a0e1f078ecb7acd8e0:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile000.png
+        Name: tile000
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    5d23f160c3da465f5bf743fdfc8b40e3:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile001.png
+        Name: tile001
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c418b3299acdf41328f879ad4a0d2b2a:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile002.png
+        Name: tile002
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    988fc359a0b1772a278eb581db744ee1:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile003.png
+        Name: tile003
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    45a1131b0620ab05ca830c4b2dc62c46:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile004.png
+        Name: tile004
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    7087094256c59eace894c919a1ba7608:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile005.png
+        Name: tile005
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    b1837af4b9283c2088398a8a3dd3fbad:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile006.png
+        Name: tile006
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    97f2c9bfdf041ab4c7548d7bad33ff86:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile007.png
+        Name: tile007
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    3f613390cb3d47767fd4b98b25d59026:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile008.png
+        Name: tile008
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    aef9e69c62f9f5e1add8df3fc60cb9b7:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile009.png
+        Name: tile009
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    815de79cb87c0c9eab34381594dee8ad:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile010.png
+        Name: tile010
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    3c352fbf89642a80596895598886d183:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile011.png
+        Name: tile011
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a8ef12b61cfeb9bfe6f368fd62d9a43f:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile012.png
+        Name: tile012
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    146005771463b2167b0d9ed765c0c68d:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile013.png
+        Name: tile013
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2b817a6a99cc1d33dd42134e9f9dcf0a:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile014.png
+        Name: tile014
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e4759e5e237efd32b52e59d50737019a:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile015.png
+        Name: tile015
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    e41826826e3183f0fa49f579c5e58aa4:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile016.png
+        Name: tile016
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    6903b75479fdd9fe2abb2ac070963326:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile017.png
+        Name: tile017
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    81c95689241b8d9cc521194bb9eeb133:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile018.png
+        Name: tile018
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    c879a61d3f4a28d6c2e11bf08c86f247:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile019.png
+        Name: tile019
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    8d65e48c12ee9426b272d6136262406b:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile020.png
+        Name: tile020
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    910f063414bf52b1dfedd4364fe5e763:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile021.png
+        Name: tile021
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    2a38c723dec3b15b284eca931944a990:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile022.png
+        Name: tile022
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    4a64a3228d696c1461541681d0a782bc:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile023.png
+        Name: tile023
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a0b1d03d1e1d3bdbf5f1d81f41d37e06:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile024.png
+        Name: tile024
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    62f8c95e347eacceb25d66e733511e35:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile025.png
+        Name: tile025
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    0fed5af796667ccae66741b4bf17821b:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile026.png
+        Name: tile026
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    1f3f25201c0944104bbbfdb8597dd1ed:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile027.png
+        Name: tile027
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}
+    a4fec2df6f914151722c6e2b2b3ac6d4:
+        Source: !file ../../../Resources/OpenDefense/Enemies/tile028.png
+        Name: tile028
+        TextureRegion: {X: 0, Y: 0, Width: 256, Height: 256}
+        Center: {X: 0.0, Y: 0.0}
+        Borders: {X: 0.0, Y: 0.0, Z: 0.0, W: 0.0}
+        BorderColor: {R: 0, G: 0, B: 0, A: 0}

@@ -1,0 +1,7 @@
+!Texture
+Id: d37616e0-b4ef-4995-a3c2-8f09ea2f4ca1
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenDefense/Scenario/barbed_wire_diffuse_alpha.tif
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

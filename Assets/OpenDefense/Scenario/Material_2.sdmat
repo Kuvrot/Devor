@@ -1,27 +1,26 @@
 !MaterialAsset
-Id: bc7ac59c-7fd3-4a2e-bb3e-e197a1bc62f3
+Id: f42e312d-6735-49d5-badd-899e50028620
 SerializedVersion: {Stride: 2.0.0.0}
 Tags: []
 Attributes:
     Diffuse: !MaterialDiffuseMapFeature
         DiffuseMap: !ComputeTextureColor
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            Texture: d37616e0-b4ef-4995-a3c2-8f09ea2f4ca1:OpenDefense/Scenario/barbed_wire_diffuse_alpha
             FallbackValue:
                 Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-            Filtering: Point
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
             Swizzle: null
     DiffuseModel: !MaterialDiffuseLambertModelFeature {}
     Occlusion: !MaterialOcclusionMapFeature
         AmbientOcclusionMap: !ComputeTextureScalar
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
+            Texture: d37616e0-b4ef-4995-a3c2-8f09ea2f4ca1:OpenDefense/Scenario/barbed_wire_diffuse_alpha
             FallbackValue:
                 Value: 1.0
             Scale: {X: 1.0, Y: 1.0}
             Offset: {X: 0.0, Y: 0.0}
         DirectLightingFactor: !ComputeFloat
-            Value: 0.72
+            Value: 1.0
         CavityMap: !ComputeTextureScalar
             FallbackValue:
                 Value: 1.0
@@ -31,17 +30,12 @@ Attributes:
             Value: 1.0
         SpecularCavity: !ComputeFloat
             Value: 1.0
-    Emissive: !MaterialEmissiveMapFeature
-        EmissiveMap: !ComputeTextureColor
-            Texture: 6056430c-0a99-4ae9-98ab-3d1a8fdc3611:OpenDefense/skin_hands
-            FallbackValue:
-                Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
-            Filtering: Point
-            Scale: {X: 1.0, Y: 1.0}
-            Offset: {X: 0.0, Y: 0.0}
-            Swizzle: null
-        Intensity: !ComputeFloat
+    Transparency: !MaterialTransparencyAdditiveFeature
+        Alpha: !ComputeFloat
             Value: 1.0
+        Tint: !ComputeColor
+            Value: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+        DitheredShadows: true
     Overrides:
         UVScale: {X: 1.0, Y: 1.0}
 Layers: {}

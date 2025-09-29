@@ -21,7 +21,7 @@ Hierarchy:
                         Control:
                             ResetSeconds: 1.0
                             Control: Play
-                        Color: {R: 1.0, G: 1.0, B: 1.0, A: 1.0}
+                        Color: {R: 0.26875, G: 0.26875, B: 0.26875, A: 1.0}
                         Speed: 1.0
                         ParticleSystem:
                             Settings: {}

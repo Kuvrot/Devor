@@ -32,6 +32,21 @@ Hierarchy:
                 Margin: {}
                 Name: hitScreen
                 Children: {}
+        -   UIElement: !TextBlock
+                Id: 7488ea79-efe9-4d65-ad7d-1571a8eb7f65
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 79.0
+                Height: 29.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Bottom
+                Margin: {Left: 273.0, Bottom: 28.0}
+                Text: DOOR HP
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+                OutlineColor: {R: 0, G: 0, B: 0, A: 255}
+                OutlineThickness: 0.0
         -   UIElement: !Canvas
                 Id: 750019c4-7c68-4739-84bb-50c76cb56f90
                 DependencyProperties: {}
@@ -65,7 +80,7 @@ Hierarchy:
                 Id: 88874292-273e-4407-81f4-9a475a243ae7
                 DependencyProperties: {}
                 BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
-                Opacity: 0.7
+                Opacity: 0.64
                 DrawLayerNumber: 5
                 CanBeHitByUser: false
                 Width: 581.0
@@ -77,13 +92,13 @@ Hierarchy:
                 MaximumHeight: 3.4028235E+38
                 MaximumDepth: 3.4028235E+38
                 Name: healthBar
-                Value: 1.0
+                Value: 5.0
                 Maximum: 100.0
                 TrackBackgroundImage: !SpriteFromTexture
-                    Texture: 87540190-ab97-4b4e-b3c2-d57d2fbb1ff3:StrideEnvironmentLightingDFGLUT8
+                    Texture: 02a3714a-d7f6-4675-a327-a792a74f7e34:OpenDefense/UI/white
                     Center: {X: 0.0, Y: 0.0}
                 TrackForegroundImage: !SpriteFromTexture
-                    Texture: a49995f8-2380-4baa-a03e-f8d1da35b79a:StrideEnvironmentLightingDFGLUT16
+                    Texture: 1decb0e4-c072-416d-be88-0c0cf64ba175:OpenDefense/UI/green
                     Center: {X: 0.0, Y: 0.0}
                 TrackStartingOffsets: {X: 3.0, Y: 3.0}
                 TickOffset: 13.0
@@ -99,6 +114,7 @@ Hierarchy:
                     d829a6446eb0272dbab2a0963f56f073: !ImageElement ref!! 25c547d0-9eff-4416-8ef5-8dfd4e6a4be0
                     382f1d1dc12d63be4b5dd17c653aaafc: !TextBlock ref!! c1ca2eac-4b8b-477d-a898-a9507bc23121
                     a1bf06fd2a12822fa8bec3cdcca518fd: !Slider ref!! 88874292-273e-4407-81f4-9a475a243ae7
+                    cf5cf1be02eae764f76bdb7c31c4b034: !TextBlock ref!! 7488ea79-efe9-4d65-ad7d-1571a8eb7f65
                     6aba8cf53b2b51e9aa75539981767687: !Canvas ref!! 49696185-16aa-42d2-bef8-65b22d74ba7d
                     63af91100207337ee6de3dfad9fad469: !Canvas ref!! 750019c4-7c68-4739-84bb-50c76cb56f90
                 RowDefinitions: {}

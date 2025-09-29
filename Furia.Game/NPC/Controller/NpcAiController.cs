@@ -29,7 +29,7 @@ namespace Furia.NPC.Controller
         {
             animationController = Entity.GetChild(0).Get<Npc2dAnimationController>();
             stats = Entity.Get<NpcStats>();
-            target = GameManager.instance.player;
+            target = GameManager.instance.door;
             characterComponent = Entity.Get<CharacterComponent>();
             clock = new Random().NextDouble() * (stats.attackRate - 0.0f) + 0.0f;
             audioManager = Entity.Get<AudioManager>();
@@ -74,9 +74,9 @@ namespace Furia.NPC.Controller
             }
         }
 
-        public void LookTarget()
+        private void LookTarget()
         {
-            Vector2 lookAngle = GetLookAtAngle(Entity.Transform.Position, target.Position);
+            Vector2 lookAngle = GetLookAtAngle(Entity.Transform.Position, GameManager.instance.player.Position);
             Quaternion result = Quaternion.RotationYawPitchRoll(lookAngle.Y, 0, 0);
             Entity.Transform.Rotation = result;
         }
@@ -159,7 +159,7 @@ namespace Furia.NPC.Controller
                     {
                         if (!stats.isRangeNPC)
                         {
-                            GameManager.instance.player.Entity.Get<PlayerStats>().GetHit(stats.damage);
+                            target.Entity.Get<PlayerStats>().GetHit(stats.damage);
                             audioManager?.PlaySound(stats.attackSound);
                         }
                         else
@@ -182,7 +182,7 @@ namespace Furia.NPC.Controller
                                 {
                                     if (new Random().Next(0, 100) <= stats.accuracy) // If it is a range npc, then his shots will have a 25% chance of impact
                                     {
-                                        GameManager.instance.player.Entity.Get<PlayerStats>().GetHit(stats.damage);
+                                        target.Entity.Get<PlayerStats>().GetHit(stats.damage);
                                     }
                                 }
                             }

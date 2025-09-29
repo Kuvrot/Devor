@@ -1,0 +1,7 @@
+!Texture
+Id: 02a3714a-d7f6-4675-a327-a792a74f7e34
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../Resources/OpenDefense/UI/white.png
+Type: !ColorTextureType
+    ColorKeyColor: {R: 255, G: 0, B: 255, A: 255}

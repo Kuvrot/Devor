@@ -1,8 +1,11 @@
 Developed by 
 - Jaime Arturo (Kuvrot)
 
-2D art (default resources)
-- HorrorMovieRei (https://opengameart.org/content/husk-mutant
-- drummyfish (https://opengameart.org/content/anarch-oldschool-fps-resources)
-- GymRat (https://opengameart.org/content/lospec-game-jam-fps-assets)
+Art
+- Fort model by Jaime Arturo (Kuvrot)
+- Hand and weapon models by Markus Bekel "makkE"
+- Barbed wire by James White (https://opengameart.org/content/barbed-wire)
+- Textures by arcitool (see the license here: [license.txt](https://github.com/user-attachments/files/22587925/license.txt))
+
+
 
